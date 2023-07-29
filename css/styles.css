@@ -37,7 +37,7 @@
   text-transform: uppercase;
 }
 
-.logo-txt2 {
+.logo-txt {
   color: var(--navyblue);
 }
 .nav-list {
@@ -88,7 +88,7 @@
   cursor: pointer;
 }
 .hero-btn:hover,
-.hero-btn:active {
+.hero-btn:focus {
   background-color: var(--ocean);
 }
 /*========================================*/
@@ -123,7 +123,7 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .what-list {
@@ -148,9 +148,9 @@
   background-color: var(--white);
 }
 .team-member {
+  background: var(--white);
 }
 .team-member-img {
-  background: var(--white);
 }
 .team-member-name {
   color: var(--navyblue);
@@ -182,7 +182,7 @@
   text-transform: uppercase;
 }
 
-.footer-txt2 {
+.footer-txt {
   color: var(--cloud);
 }
 .footer-desc {
