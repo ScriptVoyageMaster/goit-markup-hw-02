@@ -31,7 +31,8 @@ a {
 .body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  color: #2e2f42;
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 .hdr {
@@ -39,22 +40,17 @@ a {
 .nav {
 }
 .logo-lnk {
-}
-.logo-txt1 {
   color: var(--iris);
+  font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .logo-txt2 {
   color: var(--navyblue);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 .nav-list {
 }
@@ -70,7 +66,7 @@ a {
 .addr {
 }
 .addr-lnk {
-  color: var(--slate);
+  /* color: var(--slate); */
   font-size: 16px;
   /* font-weight: 400; */
   line-height: 24px; /* 150% */
@@ -89,9 +85,9 @@ a {
   letter-spacing: 1.12px;
 }
 .hero-btn {
-  border-radius: 4px;
+  /* border-radius: 4px; */
   background: var(--iris);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
@@ -157,10 +153,10 @@ a {
 .team-member {
 }
 .team-member-img {
-  border-radius: 0px 0px 4px 4px;
+  /* border-radius: 0px 0px 4px 4px; */
   background: var(--white);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08); */
 }
 .team-member-name {
   color: var(--navyblue);
@@ -183,22 +179,17 @@ a {
   background: var(--navyblue);
 }
 .footer-lnk {
-}
-.footer-txt1 {
   color: var(--iris);
+  font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+
 .footer-txt2 {
   color: var(--cloud);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 .footer-desc {
   color: var(--cloud);
@@ -212,7 +203,7 @@ a {
 .filter {
 }
 .filter-btn {
-  border-radius: 4px;
+  /* border-radius: 4px; */
   border: 1px solid var(--cornflower);
   background: var(--cloud);
   color: var(--iris);
@@ -226,8 +217,8 @@ a {
 }
 .filter-btn:hover {
   background: var(--ocean);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
-    0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.1); */
   color: var(--white);
   text-align: center;
 
@@ -257,5 +248,5 @@ a {
   font-size: 16px;
   /* font-weight: 400; */
   line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.03em;
 }
