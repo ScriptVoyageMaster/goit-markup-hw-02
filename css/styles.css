@@ -51,6 +51,10 @@
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+.nav-lnk:hover,
+.nav-lnk:focus {
+  color: var(--ocean);
+}
 .addr {
   font-style: normal;
 }
@@ -201,20 +205,19 @@
   background: var(--cloud);
   color: var(--iris);
   text-align: center;
-
+  font-family: 'Roboto', sans-serif;
   /* Button Text */
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
-.filter-btn:hover {
+.filter-btn:hover,
+.filter-btn:focus {
   background: var(--ocean);
-
   color: var(--white);
   text-align: center;
-
-  /* Button Text */
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; /* 150% */
