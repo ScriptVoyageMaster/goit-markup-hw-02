@@ -1,19 +1,7 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-span,
-p,
-ol,
-ul,
-li,
-a {
-  margin: 0;
-  padding: 0;
+.link,
+.list {
   text-decoration: none;
-  list-style-type: none;
+  list-style: none;
 }
 :root {
   --iris: #4d5ae5;
@@ -41,7 +29,7 @@ a {
 }
 .logo-lnk {
   color: var(--iris);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -64,13 +52,18 @@ a {
   letter-spacing: 0.32px;
 }
 .addr {
+  font-style: normal;
 }
 .addr-lnk {
-  /* color: var(--slate); */
+  color: var(--slate);
   font-size: 16px;
   /* font-weight: 400; */
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+}
+.addr-lnk:hover,
+.addr-lnk:active {
+  color: var(--ocean);
 }
 /*========================================*/
 .hero {
@@ -81,24 +74,27 @@ a {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
 }
 .hero-btn {
-  /* border-radius: 4px; */
   background: var(--iris);
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+  font-family: 'Roboto', sans-serif;
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: var(--ocean);
 }
 /*========================================*/
 .how {
 }
 .how-ttl {
-  display: none;
 }
 .how-list {
 }
@@ -126,7 +122,7 @@ a {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -144,19 +140,17 @@ a {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 .team-list {
+  background-color: var(--white);
 }
 .team-member {
 }
 .team-member-img {
-  /* border-radius: 0px 0px 4px 4px; */
   background: var(--white);
-  /* box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08); */
 }
 .team-member-name {
   color: var(--navyblue);
@@ -180,7 +174,7 @@ a {
 }
 .footer-lnk {
   color: var(--iris);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -203,7 +197,6 @@ a {
 .filter {
 }
 .filter-btn {
-  /* border-radius: 4px; */
   border: 1px solid var(--cornflower);
   background: var(--cloud);
   color: var(--iris);
@@ -217,8 +210,7 @@ a {
 }
 .filter-btn:hover {
   background: var(--ocean);
-  /* box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
-    0px 3px 1px 0px rgba(0, 0, 0, 0.1); */
+
   color: var(--white);
   text-align: center;
 
